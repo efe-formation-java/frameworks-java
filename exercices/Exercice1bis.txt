@@ -1,0 +1,33 @@
+1. Application complete (toutes les couches) de gestion de séries
+// Controller (console)
+// Service
+// Repository (Spring Data JPA)
+// main 
+// Model
+// Configuration
+
+
+Classe Realisateur 
+id, nom, prenom
+
+Classe Acteur
+id, nom, prenom, role
+
+Classe Saison
+id, numero, annee, nbEpisodes, realisateur (OneToOne(cascade = CascadeType.ALL), acteurs (@OneToMany(cascade = CascadeType.ALL, fetch=FetchType.EAGER))
+
+Classe Série
+id, titre, saisons (@OneToMany(cascade = CascadeType.ALL, fetch=FetchType.EAGER)) , 
+
+Ne pas gérer de manière indépendante les acteurs ni les realisteurs ni les saisons (uniquement à travers les séries)
+
+Permettre l'affichage des séries
+- triés par ordre alphabétique croissant du titre
+- triés par ordre alphabétique décroissant du titre
+- triés par ordre chronologique de la premiere saison
+- triés par ordre chronologique inverse de la premiere saison
+- triés par nombre total d'épisodes croissant
+- triés par nombre total d'épisodes décroissant
+- en fonction d'un réalisateur
+- en fonction d'un acteur
+- recherche sur le titre
