@@ -1,0 +1,66 @@
+1. Cave à Vins
+(RestController / Service / JpaRepository)
+
+Bouteille
+* Nom
+* Region
+* Robe
+* nb de bouteilles >= 0
+* petillant (boolean)
+Commentaire
+Note (1 <= 10)
+
+
+- Ajouter une bouteille
+- Modifier une bouteille
+- Supprimer une bouteille
+- lister les bouteilles
+- trouver une bouteille
+- boire(nb, id)
+- racheter(nb, id)
+- mettre Note(note, id)
+- mettre Commentaire(comm, id)
+
+
+[
+    {
+        "id": 1,
+        "nom": "Chateau laffite Roschild",
+        "robe": "Rouge",
+        "region": "Bordeaux ouest",
+        "nbBouteilles": 12,
+        "petillant": false,
+        "commentaires": null,
+        "note": 5
+    },
+    {
+        "id": 2,
+        "nom": "Chateau Margaux",
+        "robe": "Rouge",
+        "region": "Bordeaux",
+        "nbBouteilles": 12,
+        "petillant": false,
+        "commentaires": null,
+        "note": 5
+    },
+    {
+        "id": 4,
+        "nom": "Chateau Margaux 3",
+        "robe": "Rouge",
+        "region": "Bordeaux",
+        "nbBouteilles": 12,
+        "petillant": false,
+        "commentaires": "bof",
+        "note": 5
+    },
+    {
+        "id": 5,
+        "nom": "Chateau Chateau",
+        "robe": "Blanc",
+        "region": "Bourgogne",
+        "nbBouteilles": 24,
+        "petillant": false,
+        "commentaires": null,
+        "note": 8
+    }
+]
