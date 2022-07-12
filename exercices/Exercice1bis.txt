@@ -24,10 +24,7 @@ Ne pas gérer de manière indépendante les acteurs ni les realisteurs ni les sa
 Permettre l'affichage des séries
 - triés par ordre alphabétique croissant du titre
 - triés par ordre alphabétique décroissant du titre
-- triés par ordre chronologique de la premiere saison
-- triés par ordre chronologique inverse de la premiere saison
-- triés par nombre total d'épisodes croissant
-- triés par nombre total d'épisodes décroissant
+
 - en fonction d'un réalisateur
 - en fonction d'un acteur
 - recherche sur le titre
